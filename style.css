@@ -22,3 +22,7 @@ h1 {
     font-size: 50px;
 }
 
+button {
+    background-color: #ffa600;
+    color: white;
+}
