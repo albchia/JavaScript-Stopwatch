@@ -4,3 +4,9 @@ let appendTens = document.getElementById("tens");
 let appendSeconds = document.getElementById("seconds");
 let buttonStart = document.getElementById("buttonStart");
 let buttonStop = document.getElementById("buttonStop");
+let buttonReset = document.getElementById("buttonReset");
+
+var Interval;
+buttonStart.onclick = function() {
+    clearInterval(Interval);
+}
